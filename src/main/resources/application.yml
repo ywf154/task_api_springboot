@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: demo_ForMybatisPlus
+  datasource:
+    url: jdbc:sqlite:tasks.sqlite3
+    driver-class-name: org.sqlite.JDBC
+
+mybatis-plus:
+#  configuration:
+#    # ???????????sql???
+##    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+  type-aliases-package: com.ssmlearn.tasks.generator.pojo
