@@ -2,13 +2,12 @@ spring:
   application:
     name: demo_ForMybatisPlus
   datasource:
-    url: jdbc:sqlite:tasks.sqlite3
+#    url: jdbc:sqlite:classpath:tasks.sqlite3
+    url: jdbc:sqlite:D:/桌面/Desktop/学习/javalearn/javaWeb/tasks/src/main/resources/tasks.sqlite3
     driver-class-name: org.sqlite.JDBC
 
 mybatis-plus:
-#  configuration:
-#    # ???????????sql???
-##    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
   global-config:
     db-config:
       id-type: auto
