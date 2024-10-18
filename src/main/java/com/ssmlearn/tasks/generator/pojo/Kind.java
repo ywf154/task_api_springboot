@@ -11,7 +11,7 @@ import lombok.Data;
  * 任务种类
  * @TableName TaskList_type
  */
-@TableName(value ="TaskList_type")
+@TableName(value ="type")
 @Data
 public class Kind implements Serializable {
     @TableId(type = IdType.AUTO)

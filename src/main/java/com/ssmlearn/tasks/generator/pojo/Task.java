@@ -12,7 +12,7 @@ import lombok.Data;
  * 
  * @TableName TaskList_task
  */
-@TableName(value ="TaskList_task")
+@TableName(value ="task")
 @Data
 public class Task implements Serializable {
     @TableId(type = IdType.AUTO)

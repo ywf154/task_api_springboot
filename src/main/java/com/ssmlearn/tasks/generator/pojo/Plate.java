@@ -13,7 +13,7 @@ import lombok.Data;
  * 
  * @TableName TaskList_plate
  */
-@TableName(value ="TaskList_plate")
+@TableName(value ="plate")
 @Data
 public class Plate implements Serializable {
     @TableId(type = IdType.AUTO)
