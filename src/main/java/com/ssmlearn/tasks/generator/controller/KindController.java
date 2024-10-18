@@ -1,5 +1,6 @@
 package com.ssmlearn.tasks.generator.controller;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.ssmlearn.tasks.generator.mapper.KindMapper;
 import com.ssmlearn.tasks.generator.mapper.PlateMapper;
 import com.ssmlearn.tasks.generator.pojo.Kind;
@@ -12,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 @RequestMapping("/kind")
 public class KindController {
     @Autowired

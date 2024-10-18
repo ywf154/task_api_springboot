@@ -2,8 +2,9 @@ spring:
   application:
     name: demo_ForMybatisPlus
   datasource:
-#    url: jdbc:sqlite:classpath:tasks.sqlite3
-    url: jdbc:sqlite:D:/桌面/Desktop/学习/javalearn/javaWeb/tasks/src/main/resources/tasks.sqlite3
+
+    # url: jdbc:sqlite:D:/桌面/Desktop/学习/javalearn/javaWeb/tasks/src/main/resources/tasks.sqlite3
+    url: jdbc:sqlite:/opt/tasks.sqlite3
     driver-class-name: org.sqlite.JDBC
 
 mybatis-plus:
